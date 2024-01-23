@@ -4,6 +4,6 @@
 # Creating pseudocode
 
 # Creating a code to present the taxable income
-taxable_income = int(input("Please enter the taxable income: "))
+tax_payable = int(input("Please enter the taxable income: "))
 
-
+# Creating the code to 
