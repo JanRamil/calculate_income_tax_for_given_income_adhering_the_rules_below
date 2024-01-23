@@ -4,6 +4,15 @@
 # Creating pseudocode
 
 # Creating a code to present the taxable income
-tax_payable = int(input("Please enter the taxable income: "))
+taxable_income = int(input("Please enter the taxable income: "))
 
-# Creating the code to 
+# Create a code that will assess if the income is taxable
+
+# Create a code that will assess if the income is less than 10000
+if taxable_income < 10000:
+    tax = 0
+    
+# Create a code else if income is less than 20000
+elif taxable_income < 20000:
+    tax = (taxable_income - 10000) * 0.1
+
