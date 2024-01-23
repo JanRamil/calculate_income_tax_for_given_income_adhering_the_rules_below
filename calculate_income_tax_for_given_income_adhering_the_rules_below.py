@@ -20,4 +20,9 @@ elif taxable_income < 20000:
 else:
     tax = 10000 * 0 + 10000 * 0.1 + (taxable_income - 20000) * 0.2
 
+# Create a code that will print the tax of the given income
+print(
+    "Your total tax to pay is: ",
+    tax,
+)
 
